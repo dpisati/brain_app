@@ -1,8 +1,9 @@
 {
-  "name": "my-app",
+  "name": "brain_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "clarifai": "^2.9.0",
     "git": "^0.1.5",
     "npm-git-install": "^0.3.0",
     "react": "^16.8.6",
@@ -32,5 +33,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpisati/brain_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpisati/brain_app/issues"
+  },
+  "homepage": "https://github.com/dpisati/brain_app#readme"
 }
