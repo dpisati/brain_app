@@ -5,7 +5,9 @@
   "dependencies": {
     "clarifai": "^2.9.0",
     "git": "^0.1.5",
+    "knex": "^0.19.2",
     "npm-git-install": "^0.3.0",
+    "pg": "^7.12.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-particles-js": "^2.6.0",
