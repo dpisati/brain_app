@@ -87,7 +87,7 @@ class App extends Component {
       .predict(Clarifai.FACE_DETECT_MODEL, this.state.input)
       .then(response => {
         if (response) {
-          fetch("https://dpist-smart-brain.herokuapp.com/image", {
+          fetch("http://dpist-smart-brain.herokuapp.com/image", {
             method: "put",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
